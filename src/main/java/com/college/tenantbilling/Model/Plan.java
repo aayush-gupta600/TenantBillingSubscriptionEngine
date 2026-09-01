@@ -29,4 +29,7 @@ public class Plan {
 
     @Column(nullable = false)
     private Integer usageLimit;
+
+    public Plan(String name, BigDecimal basePrice, String billingInterval, Integer usageLimit) {
+    }
 }
