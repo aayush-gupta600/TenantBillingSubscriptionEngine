@@ -35,4 +35,7 @@ public class Tenant {
     public void prePersist() {
         createdAt = LocalDateTime.now();
     }
+    public Tenant(String name) {
+        this.name = name;
+    }
 }
